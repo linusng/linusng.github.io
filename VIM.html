@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css">
+<title>VIM</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+<a href="index.html">Index</a>
+<hr>
+<div class="content">
+
+<ol>
+<li>
+Download nvim
+
+<ul>
+<li>
+brew install neovim (macOS)
+
+<li>
+sudo apt-get install neovim (Ubuntu)
+
+</ul>
+<li>
+Install fisa-vim-config 
+
+<ul>
+<li>
+This setup includes all plugin managers, file manager support (NERDTree), python linting and autocomplete.
+
+<li>
+<a href="http://vim.fisadev.com/">http://vim.fisadev.com/</a>
+
+<ul>
+<li>
+Select Install for NeoVim and follow the steps described
+
+</ul>
+</ul>
+<li>
+Install my own colorscheme
+
+<ul>
+<li>
+<a href="https://github.com/linusng/green-shades.vim">https://github.com/linusng/green-shades.vim</a>
+
+</ul>
+<li>
+Install CocCommand for state-of-the-art IntelliSense python autocomplete.
+
+<ul>
+<li>
+<a href="https://github.com/neoclide/coc.nvim">https://github.com/neoclide/coc.nvim</a>
+
+<li>
+<a href="https://github.com/neoclide/coc-python">https://github.com/neoclide/coc-python</a>
+
+<li>
+Will have to disable deoplete plugin which was installed along the fisa-vim-config
+
+</ul>
+<li>
+Install vimwiki
+
+<ul>
+<li>
+<a href="https://github.com/vimwiki/vimwiki">https://github.com/vimwiki/vimwiki</a>
+
+<li>
+Follow the guide at <a href="https://www.rosipov.com/blog/custom-templates-in-vimwiki/">https://www.rosipov.com/blog/custom-templates-in-vimwiki/</a>
+
+<ul>
+<li>
+This will teach you how to create and link a custom .html template for VimwikiAll2HTML build.
+
+<li>
+His method does not work, what I did was to append the href to Index.html into the default.tpl file.
+
+<li>
+The default.tpl file is what VimwikiAll2HTML searches for when compiling .wiki to .html files.
+
+<li>
+You can duplicate the original default.tpl to default_original.tpl file just in case you want to revert back.
+
+</ul>
+</ul>
+<li>
+Install browsersync to track and reflect exported html files by vimwiki
+
+<ul>
+<li>
+<a href="https://browsersync.io/#install">https://browsersync.io/#install</a>
+
+</ul>
+<li>
+Install auto markdown loader
+
+<ul>
+<li>
+Autoload and update .md / .markdown files when opened with nvim
+
+<li>
+<a href="https://github.com/shime/vim-livedown">https://github.com/shime/vim-livedown</a>
+
+</ul>
+<li>
+Test
+
+</ol>
+
+</div>
+</body>
+</html>
